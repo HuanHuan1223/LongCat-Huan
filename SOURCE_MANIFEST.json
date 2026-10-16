@@ -1,0 +1,62 @@
+[
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\ComfyUI-xiaozhuguang\\_xzg_audiodit\\configuration_audiodit.py",
+    "sha256": "10f3e2057339ed1970cf2b37092e0dd27b6c6a6f286f1f87cb500f52fd856c24"
+  },
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\ComfyUI-xiaozhuguang\\_xzg_audiodit\\modeling_audiodit.py",
+    "sha256": "f9c782ef0f9f827dee62cdb0730259cbd2f6f7d371f7aa49dc2810f82003b1bb"
+  },
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\ComfyUI-xiaozhuguang\\_xzg_audiodit\\__init__.py",
+    "sha256": "49b95dd33f043caed65f1ab2037cb75542f09ccfa8adc0113b65c3788d0b11a5"
+  },
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\ComfyUI-xiaozhuguang\\nodes\\xzg_longcat_loader.py",
+    "sha256": "03f8e3997397a7d643ac0b3f4399e6975697899a95a4c0a501a8cbdbadcfceae"
+  },
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\ComfyUI-xiaozhuguang\\nodes\\xzg_audiodit_loader.py",
+    "sha256": "992785964b8663e4d2e48a58d5fbdf1c35e979cb5a7439326e314e2d418f1701"
+  },
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\ComfyUI-xiaozhuguang\\nodes\\xzg_longcat_model_cache.py",
+    "sha256": "99c5e174d7f499f34c029e4db4857e3d57557963dc73e4bd241956b6742858b9"
+  },
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\ComfyUI-xiaozhuguang\\nodes\\xzg_audiodit_tts.py",
+    "sha256": "ee80a1f02cc35812c3a1989ec80e8df144d0b6dcd96a5f8cfd08387d00be5fbe"
+  },
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\ComfyUI-xiaozhuguang\\nodes\\xzg_text_box.py",
+    "sha256": "6127acbef5e089a097f2e7face217cc95b8bd23fbc77d19532a9a1f90de42dac"
+  },
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\huanhuan-yinpinxiufu\\audio_utils.py",
+    "sha256": "6ed7c9ddaca19af29541264660644e85d56759448cbc21670cd0f25984047cee"
+  },
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\huanhuan-yinpinxiufu\\silence_detector.py",
+    "sha256": "37149b37b99255ee22ee3e62b10986589fdc2c310112617934c715b707621c9a"
+  },
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\huanhuan-yinpinxiufu\\audio_repair.py",
+    "sha256": "bd60e880c9c103da7b95b064129d227fd3f845a85b37fcc35bfe3ac3e557f79f"
+  },
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\huanhuan-yinpinxiufu\\audio_speed_control.py",
+    "sha256": "c5a59d03b20acfe2a71f1d171d39b92352dd594d4f87ab0191e95159c5d33a11"
+  },
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\huanhuan-yinpinxiufu\\audio_diagnostic_repair.py",
+    "sha256": "0d7df696d1b68a16ecf4eda9cb357c3f864e131dc3515d7029a3fe1082833d94"
+  },
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\huanhuan-yinpinxiufu\\audio_speed_adjustment.py",
+    "sha256": "7bf6e5476ac53caed7421b106d2d8c522d46ba8cecbd5fc1935638446509df5f"
+  },
+  {
+    "source": "D:\\ComfyUI\\ComfyUI_portable_TE_v260619\\ComfyUI\\custom_nodes\\ComfyUI-xiaozhuguang\\LICENSE",
+    "sha256": "fbc7defb64c593dd741a7bb40e74449baf61236b4052004df7751343060a3c29"
+  }
+]

@@ -1,0 +1,10 @@
+numpy
+torch
+torchaudio
+transformers>=4.51
+safetensors
+sentencepiece
+librosa
+soundfile
+requests
+einops
