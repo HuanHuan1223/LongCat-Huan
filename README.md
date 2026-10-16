@@ -85,6 +85,3 @@ LongCat 所有参数始终展开，不再提供高级设置折叠开关。显示
 
 在其他位置运行测试时，用 `COMFYUI_ROOT` 指定 ComfyUI 根目录。当前验收测试使用已有的 BF16 模型、UMT5 分词器和 `input/处理好的音色.mp3`。
 
-## 来源
-
-LongCat 与文本转换代码提取自本机 `ComfyUI-xiaozhuguang`；音频处理代码提取自本机 `huanhuan-yinpinxiufu`。原始文件及 SHA-256 记录在 `SOURCE_MANIFEST.json`，保留的小珠光 MIT 许可位于 `licenses/xiaozhuguang-MIT.txt`。节点重命名不改变原有代码的版权归属；模型权重遵循各自许可证。
