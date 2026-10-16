@@ -73,6 +73,29 @@ LongCat-Huan 是一款面向中文配音的 ComfyUI 插件，将 **声音克隆�
 git clone https://github.com/HuanHuan1223/LongCat-Huan.git
 ```
 
+### 模型下载
+
+示例工作流使用以下两个下载项目，分别放入对应目录：
+
+| 下载项目 | 下载地址 | 保存目录（相对于 ComfyUI） |
+| --- | --- | --- |
+| LongCat-AudioDiT-3.5B-bf16 语音模型 | [打开模型下载页](https://huggingface.co/drbaph/LongCat-AudioDiT-3.5B-bf16/tree/main) | `models/audiodit/LongCat-AudioDiT-3.5B-bf16/` |
+| UMT5 文本分词器 | [打开分词器下载页](https://huggingface.co/google/umt5-base/tree/main) | `models/audiodit/umt5-base-tokenizer/` |
+
+**语音模型下载这两个文件**，保持文件名不变：
+
+- [model.safetensors（约 7.67 GB）](https://huggingface.co/drbaph/LongCat-AudioDiT-3.5B-bf16/resolve/main/model.safetensors?download=true)
+- [config.json](https://huggingface.co/drbaph/LongCat-AudioDiT-3.5B-bf16/resolve/main/config.json?download=true)
+
+**文本分词器下载以下四个文件**，放在同一个文件夹：
+
+- [tokenizer_config.json](https://huggingface.co/google/umt5-base/resolve/main/tokenizer_config.json?download=true)
+- [special_tokens_map.json](https://huggingface.co/google/umt5-base/resolve/main/special_tokens_map.json?download=true)
+- [spiece.model](https://huggingface.co/google/umt5-base/resolve/main/spiece.model?download=true)
+- [tokenizer.json](https://huggingface.co/google/umt5-base/resolve/main/tokenizer.json?download=true)
+
+分词器文件合计约 22 MB，无需下载该页面中的 `pytorch_model.bin`。下载完成后重启 ComfyUI，在节点中选择 `LongCat-AudioDiT-3.5B-bf16` 和 `umt5-base-tokenizer`。
+
 ### 模型放置位置
 
 模型文件需单独准备，不包含在插件下载包内。
@@ -84,7 +107,9 @@ ComfyUI/models/audiodit/
 │   └── model.safetensors
 └── umt5-base-tokenizer/
     ├── tokenizer_config.json
-    └── spiece.model 或 tokenizer.json
+    ├── special_tokens_map.json
+    ├── spiece.model
+    └── tokenizer.json
 ```
 
 ## 使用方法
