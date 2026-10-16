@@ -2,6 +2,12 @@
 
 独立的 ComfyUI 语音克隆插件，使用 ComfyUI 默认节点界面。
 
+## 工作流预览
+
+![LongCat-Huan 语音克隆工作流](docs/images/workflow.png)
+
+[下载示例工作流](example_workflows/LongCat-Huan-语音克隆.json)
+
 | 显示名称 | 节点类型 ID | 用途 |
 | --- | --- | --- |
 | LongCat语音克隆-Huan | `LongCatVoiceClone-Huan` | 参考音色克隆、长文本分段、响度匹配、模型缓存与卸载 |
